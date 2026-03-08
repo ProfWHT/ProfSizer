@@ -381,17 +381,10 @@ export default function App() {
 
       {/* Footer */}
       <footer className="max-w-7xl mx-auto px-6 py-12 border-t border-black/5">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2 opacity-40">
-            <Maximize2 className="w-4 h-4" />
-            <span className="text-xs font-semibold tracking-tighter">PROFSIZER</span>
-          </div>
-          <p className="text-xs text-black/40">© 2026 ProfSizer. Professional Image Processing.</p>
-          <div className="flex gap-6">
-            <a href="#" className="text-xs text-black/40 hover:text-black transition-colors">Privacy</a>
-            <a href="#" className="text-xs text-black/40 hover:text-black transition-colors">Terms</a>
-            <a href="#" className="text-xs text-black/40 hover:text-black transition-colors">Support</a>
-          </div>
+        <div className="flex justify-center items-center">
+          <p className="text-xs text-black/40 font-medium tracking-wide uppercase">
+            Powered by <span className="text-black font-bold">@ProfWHT</span>
+          </p>
         </div>
       </footer>
     </div>
